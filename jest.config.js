@@ -4,6 +4,9 @@
  */
 
 module.exports = {
+  testEnvironment: "jsdom",
+  // 添加 jsdom 测试环境后，全局会自动拥有完整的浏览器标准 API
+
   setupFilesAfterEnv: ['./tests/jest-setup.ts'],
 
   preset: 'ts-jest',

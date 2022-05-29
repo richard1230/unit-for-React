@@ -4,6 +4,8 @@
  */
 
 module.exports = {
+  setupFilesAfterEnv: ['./tests/jest-setup.ts'],
+
   preset: 'ts-jest',
   // All imported modules in your tests should be mocked automatically
   // automock: false,
